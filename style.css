@@ -1,0 +1,163 @@
+
+
+body.skin-fandomdesktop, button, input, textarea {
+    font-family: rubik,helvetica,arial,sans-serif;
+}
+body {
+    background-color: var(--theme-body-background-color);
+    font-size: 14px;
+    line-height: 1.75;
+}
+body {
+    line-height: 1;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, time, tt, u, ul, var, video {
+    border: 0;
+    font: normal normal normal 100% inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+@media only screen and (min-width: 1500px){
+    body {
+        --theme-body-background-image: var(--theme-body-background-image-full);
+    }
+
+}
+@media only screen and (min-width: 1280px){
+    body {
+        --theme-body-background-image: var(--theme-body-background-image-large-desktop);
+    }
+
+}
+*, :after, :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+:root {
+    --theme-body-dynamic-color-1: #fff;
+    --theme-body-dynamic-color-1--rgb: 255,255,255;
+    --theme-body-dynamic-color-2: #e6e6e6;
+    --theme-body-dynamic-color-2--rgb: 230,230,230;
+    --theme-page-dynamic-color-1: #fff;
+    --theme-page-dynamic-color-1--rgb: 255,255,255;
+    --theme-page-dynamic-color-1--inverted: #000;
+    --theme-page-dynamic-color-1--inverted--rgb: 0,0,0;
+    --theme-page-dynamic-color-2: #e6e6e6;
+    --theme-page-dynamic-color-2--rgb: 230,230,230;
+    --theme-sticky-nav-dynamic-color-1: #fff;
+    --theme-sticky-nav-dynamic-color-1--rgb: 255,255,255;
+    --theme-sticky-nav-dynamic-color-2: #e6e6e6;
+    --theme-sticky-nav-dynamic-color-2--rgb: 230,230,230;
+    --theme-link-dynamic-color-1: #000;
+    --theme-link-dynamic-color-1--rgb: 0,0,0;
+    --theme-link-dynamic-color-2: #3a3a3a;
+    --theme-link-dynamic-color-2--rgb: 58,58,58;
+    --theme-accent-dynamic-color-1: #fff;
+    --theme-accent-dynamic-color-1--rgb: 255,255,255;
+    --theme-accent-dynamic-color-2: #e6e6e6;
+    --theme-accent-dynamic-color-2--rgb: 230,230,230;
+    --theme-body-background-color: #2a2a2a;
+    --theme-body-background-color--rgb: 42,42,42;
+    --theme-body-background-image: url(https://static.wikia.nocookie.net/play-rust/images/0/08/Site-background-dark/revision/latest?cb=20210928024137);
+    --theme-body-text-color: #fff;
+    --theme-body-text-color--rgb: 255,255,255;
+    --theme-body-text-color--hover: #cccccc;
+    --theme-sticky-nav-background-color: #b83a27;
+    --theme-sticky-nav-background-color--rgb: 184,58,39;
+    --theme-sticky-nav-text-color: #fff;
+    --theme-sticky-nav-text-color--hover: #cccccc;
+    --theme-page-background-color: #1d1f1f;
+    --theme-page-background-color--rgb: 29,31,31;
+    --theme-page-background-color--secondary: #3f4141;
+    --theme-page-background-color--secondary--rgb: 63,65,65;
+    --theme-page-text-color: #e6e6e6;
+    --theme-page-text-color--rgb: 230,230,230;
+    --theme-page-text-color--hover: #b3b3b3;
+    --theme-page-text-mix-color: #828383;
+    --theme-page-text-mix-color-95: #272929;
+    --theme-page-accent-mix-color: #6d2e24;
+    --theme-page-headings-font: 'Rubik';
+    --theme-link-color: #da5f4c;
+    --theme-link-color--rgb: 218,95,76;
+    --theme-link-color--hover: #ebaaa0;
+    --theme-link-label-color: #000;
+    --theme-accent-color: #bc3c28;
+    --theme-accent-color--rgb: 188,60,40;
+    --theme-accent-color--hover: #df7a6a;
+}
+:root {
+    --fandom-global-nav-background-color: #ffc500;
+    --fandom-global-nav-text-color: #1e0c1b;
+    --fandom-global-nav-link-color: #520044;
+    --fandom-global-nav-link-color--hover: #b80099;
+    --fandom-global-nav-icon-color: #fa005a;
+    --fandom-global-nav-icon-background-color: #f9edd8;
+    --fandom-global-nav-icon-background-color--hover: #f9edd8;
+    --fandom-global-nav-icon-background-color--active: #fff;
+    --fandom-global-nav-icon-border-color: #520044;
+    --fandom-global-nav-icon-border-color--hover: rgba(82,0,68,.5);
+    --fandom-global-nav-icon-border-color--active: #520044;
+    --fandom-global-nav-bottom-icon-color: #520044;
+    --fandom-global-nav-counter-background-color: #520044;
+    --fandom-global-nav-counter-label-color: #fff;
+    --fandom-global-nav-mobile-background-color: var(--fandom-global-nav-background-color);
+    --fandom-global-nav-mobile-logo: url(/resources-ucp/v2/dist/svg/wds-brand-fandom-logo.svg);
+    --fandom-global-nav-mobile-logo-background: #f5f3f5;
+    --fandom-global-nav-mobile-community-sticky-bar-background-color: var(--theme-sticky-nav-background-color);
+    --fandom-global-nav-mobile-community-sticky-bar-color: var(--theme-sticky-nav-text-color);
+    --fandom-global-nav-mobile-community-sticky-bar-color--hover: var(--theme-sticky-nav-text-color--hover);
+    --fandom-global-nav-mobile-community-bar-background-color: var(--theme-sticky-nav-background-color);
+    --fandom-global-nav-mobile-community-bar-color: var(--theme-sticky-nav-text-color);
+    --fandom-global-nav-mobile-community-bar-color--hover: var(--theme-sticky-nav-text-color--hover);
+    --fandom-global-nav-mobile-community-bottom-border-color: #d6d0d5;
+    --fandom-global-nav-search-active-link-background-color: #fff;
+    --fandom-global-nav-search-active-link-border-color: #520044;
+    --fandom-global-nav-mobile-logo-separator-color: transparent;
+    --fandom-global-nav-separator-color: rgba(30,12,27,.25);
+    --fandom-global-nav-gp-legacy-logo: url(/resources-ucp/v2/dist/svg/wds-brand-gamepedia-badge-orange.svg);
+    --fandom-global-nav-border-top-width: 0;
+    --fandom-global-nav-overflow-shadow-color: rgba(30,12,27,.3);
+}
+:root {
+    --desktop-global-navigation-width: 66px;
+}
+:root {
+    --fandom-text-color: #f5f3f5;
+    --fandom-text-color--secondary: #d6d0d5;
+    --fandom-text-color--rgb: 245,243,245;
+    --fandom-text-color--hover: #c7bbc7;
+    --fandom-link-color: #ffc500;
+    --fandom-link-color--hover: #997600;
+    --fandom-link-color--rgb: 255,197,0;
+    --fandom-link-color--fadeout: rgba(255,197,0,.3);
+    --fandom-accent-color: #ffc500;
+    --fandom-accent-color--hover: #997600;
+    --fandom-accent-label-color: #291927;
+    --fandom-border-color: #595358;
+    --fandom-secondary-button-color: #f5f3f5;
+    --fandom-secondary-button-color--hover: #c7bbc7;
+    --fandom-dropdown-background-color: #291927;
+    --fandom-notifications-background-color: #1e0c1b;
+    --fandom-notifications-read-card-background-color: #1e0c1b;
+    --fandom-notifications-unread-card-background-color: rgba(89,83,88,.3);
+    --fandom-notifications-footer-text-color: #d6d0d5;
+    --fandom-banner-notification-background-color: #1e0c1b;
+    --fandom-banner-notifications-close-icon: #f5f3f5;
+    --fandom-mobile-body-gradient: linear-gradient(180deg,#291927,#291927 55px,#1e0c1b 100vh,#1e0c1b);
+    --fandommobile-fanhub-button-background: #f9edd8;
+    --fandommobile-fanhub-button-background--hover: #ebc480;
+}
+*, :after, :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+*, :after, :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
